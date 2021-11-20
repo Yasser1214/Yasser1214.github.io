@@ -1,0 +1,114 @@
+#head {
+  width: 75%;
+}
+
+#head #input_txt {
+  background-image: url('../pictures/icon.jpg'); 
+  background-size: 20px 25px;
+  background-position: 10px 12px; 
+  background-repeat: no-repeat;
+  width: 71%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+}
+
+#head button {
+  float: right;
+  width: 150px;
+  height: 100px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  background-image: url('../pictures/magic.png');
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  border-width: 3px;
+  border-color: white;
+}
+
+button:hover {
+  color: red;
+  background-color: white;
+  border-width: 3px;
+  border-color: red;
+}
+
+button p {
+  margin-top: 55%;
+}
+
+#list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#list li {
+  width: 55%;
+  border: 1px solid #ddd; 
+  margin-top: -1px; 
+  background-color: #f6f6f6; 
+  padding: 5px 12px; 
+  font-size: 18px; 
+  display: block; 
+}
+
+#list li a {
+  text-decoration: none;  
+  padding-left: 30px;
+  font-size: 35px;
+}
+
+#list li a:hover:not(.header) {
+  background-color: #eee; 
+}
+
+#list li p {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+#list li img {
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+}
+
+.mario{
+  color: red;
+  font-weight: bold;
+}
+
+.luigi{
+  color: green;
+  font-weight: bold;
+}
+
+.female{
+  color: deeppink;
+  font-weight: bold;
+}
+
+.toad{
+  color: #DAA520;
+  font-weight: bold;
+}
+
+.yoshi{
+  color: #228B22;
+  font-weight: bold;
+}
+
+.dk{
+  color: brown;
+  font-weight: bold;
+}
+
+.antagonist{
+  color: crimson;
+  font-weight: bold;
+}

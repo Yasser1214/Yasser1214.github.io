@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Title and favicon -->
+    <title>Portfolio Yasser</title>
+    <link rel="shortcut icon" type="image/favicon" href=images/favicon.ico>
+
+    <!-- Meta tags for special char. and Bootstrap device's screen size adaptation -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Call of jQuery file -->
+    <script src="js/jQuery/jquery-3.6.0.slim.min.js"></script>
+
+    <!-- Call of Bootstrap files (need jQuery and viewport first) -->
+    <link rel="stylesheet" href="Bootstrap/Bootstrap_css/bootstrap.min.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="Bootstrap/Bootstrap_js/bootstrap.min.js"></script>
+
+    <!-- Call of Lato font family from googleapis, a CSS font library (need the folder webfonts in the main directory), CSS main file -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Call of JavaScript file (need jQuery first) -->
+    <script src="js/script.js"></script>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    
+
+
+
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <a class="navbar-brand" href="#"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <i class="fas fa-bars fa-lg"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+            <ul class="nav nav-pills navbar-nav">
+            	<li class="nav-item"><a class="nav-link scroller" href="#about">Home</a></li>
+                <li class="nav-item"><a class="nav-link scroller" href="#about-me">About Me</a></li>
+                <li class="nav-item"><a class="nav-link scroller" href="#curriculum">Curriculum</a></li>
+                <li class="nav-item"><a class="nav-link scroller" href="#my-projects">My Projects</a></li>
+                <li class="nav-item"><a class="nav-link scroller" href="#contact-me">Contact Me</a></li> 
+                <li class="nav-item"><a class="nav-link scroller" href="#footer">Thanks</a></li>                
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+    <section id="about" class="container-fluid">
+
+        <div class="col-8 col-lg-4 profile-picture">
+            <img src="images/photo.jpg" alt="Yasser" class="rounded-circle">
+        </div>
+
+        <div class="heading">    
+                <h1> <img src="images/main-coucou.png" alt="coucou" class="rounded-circle hand"> Hi I'm Yasser, Welcome to my Web Developer</h1>
+                <h1> Portfolio !</h1>
+        </div>
+
+        <div class="links col-lg-12 text-center">  
+            <a href="docs/CV_Yasser.pdf" class="button1" target="blank">Download my Resume</a>
+        </div> 
+
+    </section>
+
+
+
+
+
+    <section id="about-me">
+
+        <div class="container">
+            
+            <div class="colored-divider"></div>
+
+            <div class="heading">
+                <h2>About me</h2>
+            </div>
+            
+            <div id="firstCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="false">
+
+                <ol class="carousel-indicators">
+                    
+                    <li data-target="#firstCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#firstCarousel" data-slide-to="1"></li>
+
+                    <a class="carousel-control-prev" href="#firstCarousel" data-slide="prev" role="button">
+                        <span class="fas fa-chevron-left fa-2x"></span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#firstCarousel" data-slide="next" role="button">
+                        <span class="fas fa-chevron-right fa-2x"></span>
+                    </a>
+
+                </ol>
+
+            
+                <div class="carousel-inner col-lg-12" role="listbox">
+
+                    <div class="carousel-item active">
+
+                        <h3>  A quick presentation </h3>
+
+                        <h5>Hi I am Yasser, a constantly learning computer developer. I m looking for a training / job
+                            opportunity in Web developement where I can apply my skills in front-end / back-end / full-stack 
+                            technologies. If you want to know more about my skills and cursus please refer to the section 
+                            <a href="html/curriculum.html" target="blank">"CURRICULUM"</a>, if you want to know more about 
+                            my achievements then you can check the section <a href="html/projects.html" target="blank">"MY PROJECTS"</a>
+                            and if you want to contact me click on <a href="html/curriculum.html" target="blank">"CONTACT ME"</a>.
+                            <br> <br> <span style="text-align:left;"> Cordially. </span>
+                        </h5>    
+
+                    </div>
+
+
+                    <div class="carousel-item hobbies">
+
+                        <h3> My Hobbies </h3>
+
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-badge"><span class="fas fa-tv"></span></div>
+                                <div class="timeline-panel-container">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="images/netflix.png" 
+                                            alt="Netflix" class="streaming"><br>
+                                            <img src="images/prime-video.png" 
+                                            alt="Prime-Video" class="streaming">
+                                            <p>Because I have a couch and a TV</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>   
+                            <li>
+                                <div class="timeline-badge"><span class="fas fa-basketball-ball"></span></div>
+                                <div class="timeline-panel-container-inverted">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="images/ping-pong.png" 
+                                            alt="Ping-Pong" class="sports"> 
+                                            <span style="font-weight: bold;"> Ping Pong </span>
+                                            <p>Occasionally</p>
+                                            <p>Not specially good</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="timeline-badge"><span class="fas fa-gamepad"></span></div>
+                                <div class="timeline-panel-container">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="images/steam.png" 
+                                            alt="Steam" class="video-games">
+                                            <img src="images/xbox.png" 
+                                            alt="Xbox" class="video-games">
+                                            <br>
+                                            <p> <span style="font-weight: bold;">Steam</span> : level 45, around 1200 achievements </p>
+                                            <p> <span style="font-weight: bold;">Xbox</span> : Gamer Score > 45000 </p>
+                                            <p> I always play bad guys in <span style="font-weight: bold;">RPG</span> because of society </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>   
+                            <li>
+                                <div class="timeline-badge"><span class="fas fa-mobile"></span></div>
+                                <div class="timeline-panel-container-inverted">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <img src="images/clash-of-clans.png" 
+                                            alt="Clash-Royale" class="mobile-games"> <br>
+                                            <img src="images/Clash-Royale.png" 
+                                            alt="Clash-Royale" class="mobile-games"> 
+                                            <p> <span style="font-weight: bold;"> Maximum number of trophies in CoC </span> : 2007 </p>
+                                            <p> <span style="font-weight: bold;"> Maximum number of trophies in CR </span> : 5188 </p>
+                                            <p>Looking for the card "Magic Archer", please contact</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                                  
+                </div> 
+                        
+            </div>  
+
+        </div>              
+
+    </section>
+
+
+
+
+
+     <section id="curriculum">
+
+            <div class="container">
+                
+                <div class="white-divider"></div>
+
+                <div class="heading">
+                    <h2>Curriculum</h2>
+                </div>
+                
+                <div id="secondCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="false">
+
+                    <ol class="carousel-indicators">
+                        
+                        <li data-target="#secondCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#secondCarousel" data-slide-to="1"></li>
+                        <li data-target="#secondCarousel" data-slide-to="2"></li>
+
+                        <a class="carousel-control-prev" href="#secondCarousel" data-slide="prev" role="button">
+                            <span class="fas fa-chevron-left fa-2x"></span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#secondCarousel" data-slide="next" role="button">
+                            <span class="fas fa-chevron-right fa-2x"></span>
+                        </a>
+
+                    </ol>
+
+                
+                    <div class="carousel-inner col-lg-12" role="listbox">
+
+                        <div class="carousel-item active" id="skills">
+
+                            <h3 style="color: #6A5ACD">Skills</h3>
+
+                            <div class="colored-divider"></div>
+                            <div class="heading">
+                                <h3> <img src="images/front.png" class="skill-pics" alt="Front-end"> Front-end</h3>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 list">        
+                                        <h5>HTML</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>CSS</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Bootstrap</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>JavaScript</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>jQuery</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>React</h5>     
+                                    </div>
+                                
+                                </div>
+                            </div>
+
+                            <div class="colored-divider"></div>
+                            <div class="heading">
+                                <h3> <img src="images/back.png" class="skill-pics" alt="Back-end"> 
+                                    Back-end <span class="vertical-bar-h3"> | </span>
+                                    Full-stack
+                                </h3>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 list">        
+                                        <h5>PHP</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>MySQL</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>MariaDB</h5>
+                                        <h5 class="vertical-bar">|</h5> 
+                                        <h5>Laravel</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Symfony</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Joomla!</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>WordPress</h5>  
+                                    </div>
+                                
+                                </div>
+                            </div>
+
+                            <div class="colored-divider"></div>
+                            <div class="heading">
+                                <h3> 
+                                    <img src="images/linux.png" class="skill-pics" alt="Linux"> 
+                                    O.S <span class="vertical-bar-h3"> | </span> 
+                                    Programming Languages <span class="vertical-bar-h3"> | </span> 
+                                    Versioning <span class="vertical-bar-h3"> | </span> 
+                                    VM <span class="vertical-bar-h3"> 
+                                    <img src="images/docker.png" class="skill-pics" alt="Docker"> 
+                                </h3>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 list">        
+                                        <h5>Windows</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Unix</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Oracle VM</h5>   
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Apache localhosts</h5> 
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Python</h5> 
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>C</h5> 
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Git</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Docker</h5>
+                                    </div>
+                                
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item" id="experience">
+
+                            <h3>Professional Experience</h3>
+
+                            <ul class="timeline">
+
+                                <li>
+                                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                                    <div class="timeline-panel-container">
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4> <img src="images/alten.jpg" class="society-logo"> ALTEN</h4>
+                                                <h4>R&D Engineer  |  Trainee</h4>
+                                                <p class="text-muted"><small class="fas fa-clock"></small> 03/2019 - 09/2019</p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Modeling of an ultrasonic sensor device</p>
+                                                <p>Modeling of a changing size and distance circular obstacle</p>
+                                                <p>Study of the power received by the device after reflection of ultrasonic waves on the obstacle</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>  
+
+                                <li>
+                                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                                    <div class="timeline-panel-container-inverted">
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4> <img src="images/l2e.jpg" class="society-logo"> L2e, Sorbonne Université</h4>
+                                                <h4>Research Assistant  |  Trainee</h4>
+                                                <p class="text-muted"><small class="fas fa-clock"></small> 05/2018 - 07/2018</p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Statistical study on the retro reflected light from a beef organic tissue (surface and depth)</p>
+                                                <p>Developement of a search and sorting algorithm to study the composition of the tissue</p>
+                                                <p>3-D segmentation of the beef tissue </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="carousel-item" id="education">
+
+                            <h3>Education</h3>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="education-block">
+                                        <h5>2014 - 2019</h5>
+                                        <span class="fas fa-graduation-cap"></span>
+                                        <h4> <img src="images/sorbonne.png" class="school-logo">
+                                            <br>Paris</h4>
+                                        <h4>Master of Science and Technology in applied Physic</h4>
+                                        <div class="colored-divider"></div>
+                                        <p>Sensors Modeling</p>
+                                        <p>Signal Processing</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                     <div class="education-block">
+                                        <h5>2020 - 2021</h5>
+                                        <span class="fas fa-graduation-cap"></span>
+                                        <h4> <img src="images/udemy.png" class="school-logo">
+                                            <br>Distance learning</h4>
+                                        <h4>IT online Training</h4>
+                                        <div class="colored-divider"></div>
+                                        <p>Web & Mobile developement</p>
+                                        <p>O.S and networks administration</p>
+                                        <p>I.O.T</p>
+                                        <p>Data processing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+          
+                    </div> 
+
+                </div>         
+                
+            </div>              
+
+        </section>
+
+
+
+
+
+        <section id="my-projects">
+
+            <div class="container">
+
+                <div class="colored-divider"></div>
+
+                <div class="heading">
+                    <h2>My Projects</h2>
+                </div>
+
+                <div class="col-lg-12 col-lg-offset-1">
+                    <h3> <img src="images/web.png" class="proj-icons"> Web Projects <br> <span  class="warning">(click on the picture to see the project)</span> </h3>
+
+                    <div class="web-proj">
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>foodPlanet</h4>
+                                <a href="projects/foodPlanet.html" target="_blank">
+                                    <img src="images/foodPlanet.png" class="web-pics" alt="foodPlanet">
+                                </a>
+                                <p>A <span class="tech">PHP</span> full-stack fast food web site to order online with the following features : authentification, receipt printing, customer information storage.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>MyPhoneBook</h4>
+                                <a href="projects/myPhoneBook.html" target="_blank">
+                                    <img src="images/myPhoneBook.png" class="web-pics" alt="myPhoneBook">
+                                </a>
+                                <p>A web application in <span class="tech">Laravel</span> that stores companies and employees information and makes connection between them.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>PixCon</h4>
+                                <a href="projects/pixcon_html/index.html" target="_blank">
+                                    <img src="images/pixcon.png" class="web-pics" alt="PixCon">
+                                </a>
+                                <p>A front page for a video games event in <span class="tech">HTML and CSS</span>.</p>
+                            </div>
+                        </div>
+                    
+                    
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>Mario search-bar</h4>
+                                <a href="projects/MarioSearchBar_js/index.html" target="_blank">
+                                    <img src="images/MarioSearchBar.png" class="web-pics" alt="MarioSearchBar">
+                                </a>
+                                <p>An <span class="tech">HTML-CSS-JS</span> search-bar that allows to search for Mario's universe characters.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>Snake</h4>
+                                <a href="projects/snake_js/index.html" target="_blank">
+                                    <img src="images/snake.png" class="web-pics" alt="Snake">
+                                </a>
+                                <p>Developement of the famous snake game with <span class="tech">JavaScript</span>. Can be launched directly on the browser thanks to Canva.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>Tetris</h4>
+                                <a href="projects/tetris_js/index.html" target="_blank">
+                                    <img src="images/tetris.png" class="web-pics" alt="Tetris">
+                                </a>
+                                <p>Developement of the famous tetris game with <span class="tech">JavaScript</span>. Can be launched directly on the browser thanks to Canva.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+     
+
+                
+                <div class="col-lg-12 col-lg-offset-1">
+                    <h3> <img src="images/pgm.jpg" class="proj-icons"> Other Projects (Unix / Network / C) <img src="images/network.png" class="proj-icons"> </h3>
+
+                    <div class="other-proj">
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>The Hyrule Castle</h4>
+                                <a href="projects/HyruleCastle.html" target="_blank">
+                                    <img src="images/HyruleCastle.png" class="pgm-pics" alt="HyruleCastle"> 
+                                </a>
+                                <p>A command line turn based game in <span class="tech">Shell script</span> inspired of the Zelda Universe.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>Network VLANs</h4>
+                                <a href="projects/networkQuest2.html" target="_blank">
+                                    <img src="images/networkQuest2.png" class="net-pics" alt="Network-Vlans">
+                                </a>
+                                <p>Two desktop VLANs are connected to each other and to a server LAN by 4 successive routers working with the OSPFv2 protocol. Both VLANs share the same gateway thanks to a method called "router on stick". Made with <span class="tech">Cisco Packet Tracer</span>.</p>                            
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="white-divider"></div>
+                                <h4>Key-value storer</h4>
+                                <a href="projects/myCRD.html" target="_blank">
+                                    <img src="images/myCRD.png" class="pgm-pics" alt="Key-value-storer">
+                                </a>
+                                <p>A multi-files program that can store, read and delete an integer key-value pair thanks to <span class="tech">C</span> structures and linked lists.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section>
+
+
+
+
+
+        <section id="contact-me">
+            
+            <div class="container">
+
+                <div class="white-divider"></div>
+
+                <div class="heading">
+                    <h2>Contact me</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-1">
+                        <form id="contact-form" method="post" action="php/contact.php" role="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="firstname">Firstname <span class="star">*</span></label>
+                                    <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Your Firstname">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="name">Name <span class="star">*</span></label>
+                                    <input id="name" type="text" name="name" class="form-control" placeholder="Your Name">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email">Email <span class="star">*</span></label>
+                                    <input id="email" type="text" name="email" class="form-control" placeholder="Your Email">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone">Phone number</label>
+                                    <input id="phone" type="tel" name="phone" class="form-control" placeholder="Your Phone number">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message">Message <span class="star">*</span></label>
+                                    <textarea id="message" name="message" class="form-control" placeholder="Your Message" rows="4"></textarea>
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="star"><strong>* Required informations.</strong></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="button1" value="Send">
+                                </div>    
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <section id="back-to-top" class="text-center colored-back-top">
+
+            <a href="#about">
+                <span class="fas fa-chevron-up"></span>
+            </a>
+
+            <h5>Back to top</h5>
+
+        </section>
+
+
+
+
+
+        <footer id="footer" class="text-center">
+
+            <div class="container col-md-6">
+                <h2>Thanks for Reading</h2>
+
+                <div class="row">
+
+                    <div id="reach-me" class="footer-section col">
+                        <h3>Reach me</h3>
+                        <a href="https://www.google.com/maps/place/93170+Bagnolet/@48.8670887,2.4077667,14z/data=!3m1!4b1!4m5!3m4!1s0x47e66d6fcb478cb7:0x1c0b82c6e1d881c0!8m2!3d48.8672285!4d2.4213328" target="_blank">
+                        <img class="img-thumbnail" src="images/location.png" alt="Location" 
+                        style="width: 50px; height: 50px; margin-left: 15px;">
+                        </a>
+
+                        <a href="#phone-email" id="contact-infos">
+                            <img class="img-thumbnail" src="images/chatting.png" alt="Contact-infos" 
+                            style="width: 50px; height: 50px; margin-left: 15px;">
+                        </a>
+
+                        <div id="phone-email" style="display: none;">
+                            <p>06 98 58 06 24 | yasser_dahy@hotmail.fr</p>
+                        </div>
+                    </div>
+                                   
+                    <div id="workplace" class="footer-section col">
+                        <h3>Workplace</h3>
+                        <a href="https://github.com/Yasser1214" target="_blank">
+                            <img class="img-thumbnail" src="images/gitHub.png" alt="GitHub" 
+                            style="width: 50px; height: 50px; margin-left: 15px;">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/yasser-dahy-b3baba150/" target="_blank">
+                            <img class="img-thumbnail" src="images/linkedIn.png" alt="linkedIn"
+                            style="width: 50px; height: 50px; margin-left: 15px;">
+                        </a>
+                    </div>
+                            
+                    <div id="gamer-ids" class="footer-section col">
+                        <h3>Gamer Profiles</h3>
+                        <a href="https://steamcommunity.com/id/Yasser_1/" target="_blank">
+                            <img class="img-thumbnail" src="images/steam.png" alt="steam"
+                            style="width: 50px; height: 50px; margin-left: 15px;">
+                        </a>
+
+                        <a href="https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgames.app.goo.gl%2F1qNSVw75hEywbGGE7&data=04%7C01%7C%7Ce84070a22c8847ad008208d9ab13cfe0%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637728923840973387%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=zTM5ZfaCsKMaoldxnR0fw2f9sHFfcrIqJrVV70j2lWs%3D&reserved=0" target="_blank">
+                            <img class="img-thumbnail" src="images/gplay.png" alt="google-play"
+                            style="width: 50px; height: 50px; margin-left: 15px;">
+                        </a>
+                    </div>
+                
+                </div>
+
+            </div>
+              
+        </footer>
+
+
+
+
+
+    </body>
+    
+</html> 
