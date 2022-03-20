@@ -94,8 +94,8 @@ section .heading h2{
     margin-top: 20px;
 }
 .hand {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 #about .links a{
     margin: 20px;
@@ -139,7 +139,7 @@ section .heading h2{
 }
 #about-me h5 a:hover{
     font-weight: bold;
-    color: #6A5ACD;
+    color: #000;
     text-decoration: none;
 }
 
@@ -246,15 +246,20 @@ section .heading h2{
     margin-bottom: 30px;
     border-radius: 30px;
 }
-#skills .heading {
+#skills .heading{
     padding-bottom: 5px;
 }
-#skills .heading h3 {
+#skills .heading h3{
     color: #6A5ACD;
     margin-top: 5px;
     text-shadow: 1px 1px 1px #000;
     text-transform: uppercase;
     font-size: 20px;
+}
+#skills .heading h3 img[alt]{
+    text-transform: none;
+    color: #000;
+    font-size: 12px;
 }
 #skills .skill-pics{
     width: 50px;
@@ -388,17 +393,16 @@ section .heading h2{
     border-radius: 10px;
     border: 2px solid #ccc;
     margin-bottom: 20px;
-
 }
 .education-block h5{
     color: #888;
     font-size: 15px;
     margin-bottom: 15px;
 }
-.education-block .fas{
-    font-size: 35px;
-}
 .education-block h4{
+   color: #6A5ACD;
+}
+.education-block h5{
    margin-bottom: 20px;
    color: #6A5ACD;
 }
@@ -408,10 +412,25 @@ section .heading h2{
 .education-block .red-divider{
     margin-bottom: 20px;
 }
-#education .school-logo{
+#education #sorbonne-logo{
     width: 250px;
     height: 100px; 
     margin: 20px 0;
+}
+#education #udemy-logo{
+    width: 180px;
+    height: 70px; 
+    margin: 30px 0;
+}
+#education #w3schools-logo{
+    width: 150px;
+    height: 100px; 
+    margin: 20px 0;
+}
+#education .location *{ /* everything inside ./location*/
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
 
 
@@ -455,6 +474,10 @@ section .heading h2{
     color: #fff;
     padding-bottom: 15px;
 }
+#my-projects a{
+    display: block;
+    text-align: center;
+}
 #my-projects a img{
     border: 3px solid #fff;
 }
@@ -465,7 +488,7 @@ section .heading h2{
     width: 250px;
     height: 200px;
     margin-bottom: 15px;
-    margin-left: 50px;
+    text-align: center;
 }
 #my-projects a .web-pics:hover{
     width: 245px;
@@ -493,7 +516,6 @@ section .heading h2{
     width: 150px;
     height: 200px;
     margin-bottom: 15px;
-    margin-left: 90px;
 }
 #my-projects a .pgm-pics:hover{
     width: 145px;
@@ -501,7 +523,6 @@ section .heading h2{
 }
 #my-projects a .net-pics{
     margin-bottom: 15px;
-    margin-left: 0;
 }
 #my-projects a .net-pics:hover{
     height: 115px;

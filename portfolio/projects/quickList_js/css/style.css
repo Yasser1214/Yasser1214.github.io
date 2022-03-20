@@ -1,0 +1,94 @@
+body {
+	background-image: url("../pictures/paper.jpg");
+}
+
+#logo img {
+	border-radius: 30px;
+}
+
+#new {
+	width: 35%;
+	margin: 15px auto;
+}
+
+#new-item {
+	border: solid 2px #018501;
+	border-radius: 5px;
+}
+
+button {
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	border: none;
+}
+
+button img {
+	width: 30px;
+	height: 30px;
+	margin: auto;
+}
+
+#list-body {
+	width: 95%;
+	height: 50%;
+	margin: 30px auto;
+	border: solid 2px #018501;
+	border-radius: 20px;
+}
+
+.item-container {
+	width: 45%;
+	margin:  auto;
+}
+
+.item {
+	width: 35%;
+}
+
+.item, .edition {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.edition {
+	margin: 10px auto;
+}
+
+.rmv, .edit {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.edit {
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	color: #018501;
+	border: solid 1px #018501;
+	border-radius: 50px;
+}
+
+.edit:hover {
+	background-color: #91fe70;
+	color: #000;
+	border: solid 1px #000;
+}
+
+#print {
+	width: 30px;
+	margin: 20px auto;
+}
+
+#print-btn {
+	color: #018501;
+	border: solid 1px #018501;
+	border-radius: 50px;
+}
+
+#print-btn:hover {
+	background-color: #91fe70;
+	color: #000;
+	border: solid 1px #000;
+	border-radius: 50px;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mario Search-bar</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<body>
+	<div id="head">
+
+		<input type="text" id="input_txt" onkeyup="nameFinder()" placeholder="Search for Mario's characters...">
+
+		<button onclick="hideShowList()"> <p style="font-family: cursive, sans-serif;">Hide / Show List</p></button>
+
+	</div>
+
+	<ul id="list" style="display: none;">
+	  <li style="display: none;">
+	  	<img src="pictures/mario.png">
+	  	<a href="#" class="mario">Mario </a>
+	  	<p>Mario is the main protagonist of many games across the Mario franchise, mainly the Super Mario series, and is the face of others, such the Mario Kart and Mario Party series.</p>
+	  </li>
+
+	 <li style="display: none;">
+	 	<img src="pictures/luigi.jpg">
+	  	<a href="#" class="luigi">Luigi </a>
+	  	<p>Luigi is an Italian plumber who is Mario's younger brother. He is playable in most of the Mario games. He is the main protagonist of the Luigi series in which he is depicted as clumsy and frightful, confronting fears in order to help.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/peach.jpg">
+	  	<a href="#" class="female">Princess Peach </a>
+	  	<p>Princess Peach is the tomboyish princess and the ruler of Sarasaland who debuted in Super Mario Land. Playable in most of the Mario spin-off games, she is depicted as either a protagonist, a supporting character, or a lady in distress.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/toad.jpeg">
+	  	<a href="#" class="toad">Toad </a>
+	  	<p>Toad is a small mushroom-like humanoid character who is Princess Peach's attendant or retainer, and a longtime protector of the Mushroom Kingdom. He remains playable in most of the Mario games and is the protagonist of Wario's Woods.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/yoshi.jpg">
+	  	<a href="#" class="yoshi">Yoshi </a>
+	  	<p>Yoshi is a green anthropomorphic dinosaur. He has a long tongue which can be used to eat enemies, and can turn the enemies he eats into eggs that can be thrown. Yoshi is a rideable character for the heroes or a playable character in most of the Mario spin-offs including his own series.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/donkey.jpg">
+	  	<a href="#" class="dk">Donkey Kong </a>
+	  	<p>Donkey Kong is an anthropomorphic gorilla from the franchise with the same name appearing in the Donkey Kong and Mario video game franchises. Donkey Kong first appears in the 1981 arcade game Donkey Kong, but the modern incarnation introduced in Donkey Kong Country is revealed to be the grandson of the original arcade version, who was later renamed to Cranky Kong. He is playable in several Mario spin-off games as a cheerful and powerful character.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/diddy.png">
+	  	<a href="#" class="dk">Diddy Kong </a>
+	  	<p>Diddy Kong is an anthropomorphic monkey who is Donkey Kong's nephew, sidekick, and best friend appearing in the Donkey Kong and Mario franchises. He is the main protagonist of Diddy Kong Racing and its DS remake, a cheerful and kind character. Created by Rare, the name Diddy is a British term meaning "little".</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/rosalina.png">
+	  	<a href="#" class="female">Rosalina </a>
+	  	<p>Rosalina is a mysterious lady from an unknown location who is the adoptive mother of the Lumas. She resides in the Comet Observatory and also the watcher of the cosmos in the Super Mario Galaxy series. Rosalina is either a supporting character or a protagonist, playable in most of the Mario spin-off games.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/toadette.jpg">
+	  	<a href="#" class="female">Toadette </a>
+	  	<p>Toadette is a pink Toad girl who first appeared in the 2003 video game Mario Kart: Double Dash!! as a playable driver. Toadette has two long round pigtails and a dress to distinguish herself from Toad. Since Super Mario Odyssey, Toadette is a member of the Toad Brigade and has the role of an archivist. Depending on the game, she is either a supporting character or a protagonist, playable in most of the Mario spin-off games.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/birdo.jpg">
+	  	<a href="#" class="female">Birdo </a>
+	  	<p>Birdo known in Japan as Catherine, (voiced by Kazumi Totaka) is a pink, anthropomorphic creature who wears a red bow on her head, and has a round mouth that can fire eggs as projectiles. Birdo first appeared in Super Mario Bros. 2. Since then, she has been a recurring character in various franchise spin-offs and becomes Yoshi's partner. Birdo has evolved from antagonist into protagonist, playable in several Mario spin-offs.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/cp-toad.jpg">
+	  	<a href="#" class="toad">Captain Toad </a>
+	  	<p>Captain Toad is an explorer and the leader of the Toad Brigade who first appears in Super Mario Galaxy. He makes several appearances within the Mario series, like in Super Mario Galaxy 2 or Super Mario Odyssey, and as a treasure tracker. He makes several cameos within Super Smash Bros. and made his Mario Kart debut in Mario Kart Tour as a playable racer. He is the main protagonist in the subset of levels in Super Mario 3D World called Captain Toad's Adventures and in the game Captain Toad: Treasure Tracker.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/pauline.jpg">
+	  	<a href="#" class="female">Pauline </a>
+	  	<p>Pauline debuted in Donkey Kong (1981), Donkey Kong (1994) for Game Boy, Mario vs. Donkey Kong 2: March of the Minis, and Mario vs. Donkey Kong: Minis March Again!. Pauline was created by Shigeru Miyamoto and other developers for the 1981 arcade game Donkey Kong as the earliest example of a female with a speaking role in a video game, and is cited as a famous example of a damsel in distress in fiction. She is the mayor of New Donk City in Super Mario Odyssey.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/bowser.jpg">
+	  	<a href="#" class="antagonist">Bowser </a>
+	  	<p>Bowser or King Koopa (voiced by Kenneth W. James) is the king of the turtle-like Koopa race, a selfish troublemaker who wants to take over the Mushroom Kingdom. He is Mario's nemesis and is the final boss of most Mario games. He is playable in all Mario spin-off games.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/dry-bowser.jpg">
+	  	<a href="#" class="antagonist">Dry Bowser </a>
+	  	<p>Dry Bowser is a recurring antagonist in the Mario series. Debuting as a form of Bowser after losing his flesh in New Super Mario Bros., the character has appeared as his own being starting with Mario Kart Wii, often serving as the final antagonist in the main games. Dry Bowser appears in Mario Party: Island Tour, and is a playable character in several of the Mario spin-off games.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/bowser-jr.jpg">
+	  	<a href="#" class="antagonist">Bowser Jr. </a>
+	  	<p>Bowser Jr. , or sometimes simply Jr. or Junior, is the son of Bowser who first appeared in the 2002 game Super Mario Sunshine. He is often depicted as the secondary antagonist throughout the Mario series. Bowser Jr. looks up to his dad and shares his ambition to defeat Mario and take over the Mushroom Kingdom. Bowser Jr. is playable in most of the spin-off Mario games and in Super Smash Bros. He is the main protagonist of Bowser Jr.'s Journey (2018) included in the remake of Mario & Luigi: Bowser's Inside Story.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/wario.jpg">
+	  	<a href="#" class="antagonist">Wario </a>
+	  	<p>Wario is an obese, muscular, hot-tempered, and greedy man. He is Mario's yellow-and-purple clad arch-rival. He initially debuted as an antagonist but over the years has become an anti-hero, even being playable in a few titles. Wario is the protagonist of the Wario series and is playable in most of the Mario spin-off games where he is Waluigi's partner. His name is portmanteau of "warui", the Japanese word for "bad", and "Mario".</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/waluigi.jpg">
+	  	<a href="#" class="antagonist">Waluigi </a>
+	  	<p>Waluigi is a tall, thin, and mischievous man who was introduced in Mario Tennis as Wario's partner. He is Luigi's black-and-purple clad arch-rival. Waluigi is often an antagonist who teams up with Wario to accomplish their schemes. He is playable in most of the Mario spin-off games and makes several cameos within the Super Smash Bros. series. Like with Wario, his name is a portmanteau of "warui" and "Luigi".</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/koopalings.jpg">
+	  	<a href="#" class="antagonist">Koopalings </a>
+	  	<p>The Koopalings are seven siblings who first appeared as boss characters in the 1988 game Super Mario Bros. 3. Their individual names are Iggy, Larry, Lemmy, Ludwig, Morton, Roy, and Wendy. They were originally depicted as the children of the series antagonist Bowser and later to be referred as his minions. They have since appeared in subsequent Super Mario games, spin-off Mario games, and the Super Smash Bros. series.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/kamek.jpg">
+	  	<a href="#" class="antagonist">Kamek </a>
+	  	<p>Kamek is a Magikoopa who is Bowser's childhood caretaker and then one of his high-ranking minions. Kamek is the main antagonist of the Yoshi series. His magic includes self-duplication, teleportation, shooting magical blasts, and changing the size of other creatures. In Japan, his species is also named Kamek, and outside Japan is Magikoopa. This will sometimes lead to a literal translation, as in Super Princess Peach where a boss is described as "A Kamek made huge by magic". Some Japanese sources such as the guide for Super Mario Advance 3: Yoshi's Island call him "Fang" to distinguish him from regular Magikoopas.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/boo.jpg">
+	  	<a href="#" class="antagonist">King Boo </a>
+	  	<p>King Boo is the king of the Boos and the main antagonist in the Luigi's Mansion series. He plays minor roles, occasionally playable, in various other Mario games, including the Mario Kart and Mario Party series. King Boo's first major debuted role was as the final boss of Luigi's Mansion, where he disguised himself as Bowser.</p>
+	  </li>
+
+	  <li style="display: none;">
+	  	<img src="pictures/wart.jpg">
+	  	<a href="#" class="antagonist">Wart </a>
+	  	<p>Wart is an anthropomorphic frog king. He debuted in Yume Kōjō: Doki Doki Panic (1987), which was converted into Super Mario Bros. 2 (1988) for its North American release, in which he is the final boss who creates his own monsters with the Dream Machine, and appoints himself ruler of the enslaved land of Subcon. He is a boss in BS Super Mario USA Power Challenge (1996), stars in a Satellaview episode "Wart's Trap, Look Out Mario Brothers" (「マムーの罠，危うしマリオブラザーズ」, "Mamu no Wana, Abunauｓhi Mario Burazazu"), and appears in Nintendo Comics System publications. He made a cameo appearance in The Legend of Zelda: Link's Awakening (1993) with his original Japanese name, Mamū. He has had mixed critical reception.</p>
+	  </li>
+	</ul>
+</body>
+</html>

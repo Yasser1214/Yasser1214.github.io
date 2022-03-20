@@ -1,6 +1,6 @@
 $(function(){
 
-    $(".navbar .scroller, body #back-to-top a ").on("click", function(event){
+    $(".scroller, #back-to-top a ").on("click", function(event){
     
         event.preventDefault();
         var hash = this.hash;
