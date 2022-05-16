@@ -39,11 +39,13 @@ button img {
 
 .item-container {
 	width: 45%;
-	margin:  auto;
+	margin:  10px auto;
 }
 
 .item {
 	width: 35%;
+	margin-bottom: 10px;
+	border-bottom: 2px solid;
 }
 
 .item, .edition {
@@ -63,14 +65,14 @@ button img {
 .edit {
 	width: 30px;
 	height: 30px;
-	background-color: transparent;
-	color: #018501;
-	border: solid 1px #018501;
+	background-color: #07F068;
+	color: #000;
+	border: solid 1px #000;
 	border-radius: 50px;
 }
 
 .edit:hover {
-	background-color: #91fe70;
+	background-color: #8DFF34;
 	color: #000;
 	border: solid 1px #000;
 }
@@ -81,14 +83,15 @@ button img {
 }
 
 #print-btn {
-	color: #018501;
-	border: solid 1px #018501;
+	font-weight: bold;
+	background-color: #07F068;
+	color: #000;
+	border: solid 1px #000;
 	border-radius: 50px;
 }
 
 #print-btn:hover {
-	background-color: #91fe70;
+	background-color: #8DFF34;
 	color: #000;
 	border: solid 1px #000;
-	border-radius: 50px;
 }
