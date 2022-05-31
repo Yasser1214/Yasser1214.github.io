@@ -19,7 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" defer="true"></script>
     <script src="Bootstrap/Bootstrap_js/bootstrap.min.js"></script>
 
-    <!-- Call of Lato font family from googleapis, a CSS font library (need the folder webfonts in the main directory), CSS main file -->
+    <!-- Call of Lato font family from googleapis, the CSS fontawesome library (need the folder webfonts in the main directory), CSS main file -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -60,13 +60,14 @@
     <section id="about" class="container-fluid">
 
         <div class="col-8 col-lg-4 profile-picture">
-            <img src="images/photo.jpg" alt="Yasser" class="rounded-circle">
+            <img src="images/hello-hand.gif" alt="coucou" id="hand">
+            <img src="images/photo.jpg" alt="Yasser" class="border border-success border-3 rounded-circle" id="my-pic">
         </div>
 
         <div class="heading">    
-                <h1> <img src="images/hello-hand.gif" alt="coucou" class="rounded-circle hand">I'm Yasser, Welcome to my 
-                    <span style="color: #239FE6">Web </span><span style="color: #EE7756">Developer</span></h1>
-                <h1> Portfolio !</h1>
+            <h1> 
+                I'm <span class="awesome-style">Yasser</span>, Welcome to my <span class="awesome-style">Web Developer</span> Portfolio !
+            </h1>
         </div>
 
         <div class="links col-lg-12 text-center">  
@@ -87,31 +88,24 @@
 
             <div class="heading">
                 <h2>About me</h2>
-            </div>
-            
-            <div id="firstCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="false">
+            </div>     
 
+            <div id="firstCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="false">
+       
                 <ol class="carousel-indicators">
                     
                     <li data-target="#firstCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#firstCarousel" data-slide-to="1"></li>
 
-                    <a class="carousel-control-prev" href="#firstCarousel" data-slide="prev" role="button">
-                        <span class="fas fa-chevron-left fa-2x"></span>
-                    </a>
-
-                    <a class="carousel-control-next" href="#firstCarousel" data-slide="next" role="button">
-                        <span class="fas fa-chevron-right fa-2x"></span>
-                    </a>
-
-                </ol>
-
-            
+                </ol>  
+                     
                 <div class="carousel-inner col-lg-12" role="listbox">
 
                     <div class="carousel-item active">
 
-                        <h3>  A quick presentation </h3>
+                        <div class="subtitle">
+                            <span class="fas fa-user fa-2x colored"></span> <h3>A quick presentation</h3>
+                        </div>
 
                         <h5>I am a constantly learning IT scientist looking for a training / job opportunity in web developement / computer programming where I can apply my skills in front-end / back-end / full-stack or data technologies. If you want to know more about my skills and cursus please refer to the section <a class="scroller" href="#curriculum">"CURRICULUM"</a>, if you want to know more about my achievements then you can check the section <a class="scroller" href="#my-projects">"MY PROJECTS"</a> and if you want to contact me click on <a class="scroller" href="#contact-me">"CONTACT ME"</a>.
                         <br> <br> <span style="text-align:left;"> Cordially. </span>
@@ -122,7 +116,9 @@
 
                     <div class="carousel-item hobbies">
 
-                        <h3> My Hobbies </h3>
+                        <div class="subtitle">
+                            <span class="fas fa-smile fa-2x colored"></span> <h3>My Hoobies</h3>
+                        </div>
 
                         <ul class="timeline">
                             <li>
@@ -134,6 +130,7 @@
                                             alt="Netflix" class="streaming"><br>
                                             <img src="images/prime-video.png" 
                                             alt="Prime-Video" class="streaming">
+                                            <div class="colored-divider"></div>
                                             <p>Because I have a couch and a TV</p>
                                         </div>
                                     </div>
@@ -147,6 +144,7 @@
                                             <img src="images/ping-pong.png" 
                                             alt="Ping-Pong" class="sports"> 
                                             <span style="font-weight: bold;"> Ping Pong </span>
+                                            <div class="colored-divider"></div>
                                             <p>Occasionally</p>
                                             <p>Not specially good</p>
                                         </div>
@@ -162,7 +160,7 @@
                                             alt="Steam" class="video-games">
                                             <img src="images/xbox.png" 
                                             alt="Xbox" class="video-games">
-                                            <br>
+                                            <div class="colored-divider"></div>
                                             <p> <span style="font-weight: bold;">Steam</span> : level 45, around 1200 achievements </p>
                                             <p> <span style="font-weight: bold;">Xbox</span> : Gamer Score > 45000 </p>
                                             <p> I always play bad guys in <span style="font-weight: bold;">RPG</span> because of society </p>
@@ -179,6 +177,7 @@
                                             alt="Clash-Royale" class="mobile-games"> <br>
                                             <img src="images/clash-royale.png" 
                                             alt="Clash-Royale" class="mobile-games"> 
+                                            <div class="colored-divider"></div>
                                             <p> <span style="font-weight: bold;"> Maximum number of trophies in CoC </span> : 2775 </p>
                                             <p> <span style="font-weight: bold;"> Maximum number of trophies in CR </span> : 5385 </p>
                                             <p>Looking for the card <span style="font-weight: bold;"> "Royal Ghost" </span>, please contact</p>
@@ -192,9 +191,19 @@
                                   
                 </div> 
                         
+            </div>   
+
+            <div class="col-12">
+                <a class="carousel-control-prev" href="#firstCarousel" data-slide="prev" role="button">
+                    <span class="fas fa-arrow-left fa-3x"></span>
+                </a>            
+
+                <a class="carousel-control-next" href="#firstCarousel" data-slide="next" role="button">
+                    <span class="fas fa-arrow-right fa-3x"></span>
+                </a>
             </div>  
 
-        </div>              
+        </div>           
 
     </section>
 
@@ -220,14 +229,6 @@
                         <li data-target="#secondCarousel" data-slide-to="1"></li>
                         <li data-target="#secondCarousel" data-slide-to="2"></li>
 
-                        <a class="carousel-control-prev" href="#secondCarousel" data-slide="prev" role="button">
-                            <span class="fas fa-chevron-left fa-2x"></span>
-                        </a>
-
-                        <a class="carousel-control-next" href="#secondCarousel" data-slide="next" role="button">
-                            <span class="fas fa-chevron-right fa-2x"></span>
-                        </a>
-
                     </ol>
 
                 
@@ -235,14 +236,16 @@
 
                         <div class="carousel-item active" id="skills">
 
-                            <h3 style="color: #6A5ACD">Skills</h3>
+                            <div class="subtitle">
+                                <span class="fas fa-wrench fa-2x colored"></span> <h3 style="color: #6A5ACD;">Skills</h3>
+                            </div>
 
                             <div class="colored-divider"></div>
                             <div class="heading">
                                 <h3> 
                                     <img src="images/front.png" class="skill-pics" alt="Front-end"> 
                                     Front-end <span class="vertical-bar-h3"> | </span> Responsive   
-                                    <img src="images/responsive.jpg" class="skill-pics" alt="Responsive"> 
+                                    <img src="images/responsive.jpg" class="skill-right-pics" alt="Responsive"> 
                                 </h3>
                             </div>
                             <div class="container">
@@ -270,7 +273,7 @@
                                 <h3> 
                                     <img src="images/back.png" class="skill-pics" alt="Back-end"> 
                                     Back-end <span class="vertical-bar-h3"> | </span> Full-stack
-                                    <img src="images/wordpress.png" class="skill-pics" alt="wordpress"> 
+                                    <img src="images/wordpress.png" class="skill-right-pics" alt="wordpress"> 
                                 </h3>
                             </div>
                             <div class="container">
@@ -291,21 +294,16 @@
                                         <h5>Joomla!</h5>
                                         <h5 class="vertical-bar">|</h5>
                                         <h5>WordPress</h5>   
-                                    </div>
-                                
+                                    </div> 
                                 </div>
                             </div>
 
                             <div class="colored-divider"></div>
                             <div class="heading">
                                 <h3> 
-                                    <img src="images/linux.png" class="skill-pics" alt="Linux"> 
-                                    O.S <span class="vertical-bar-h3"> | </span> 
-                                    Softwares <span class="vertical-bar-h3"> | </span> 
-                                    Programming <span class="vertical-bar-h3"> | </span> 
-                                    Versioning <span class="vertical-bar-h3"> | </span> 
-                                    VM <span class="vertical-bar-h3"> 
-                                    <img src="images/docker.png" class="skill-pics" alt="Docker"> 
+                                    <img src="images/windows.png" class="skill-pics" alt="Windows"> 
+                                    O.S <span class="vertical-bar-h3"> | </span> Softwares 
+                                    <img src="images/softwares.png" class="skill-right-pics" alt="Softwares"> 
                                 </h3>
                             </div>
                             <div class="container">
@@ -315,25 +313,58 @@
                                         <h5 class="vertical-bar">|</h5>
                                         <h5>Unix</h5>
                                         <h5 class="vertical-bar">|</h5>
-                                        <h5>Oracle VM</h5>   
-                                        <h5 class="vertical-bar">|</h5>
                                         <h5>Apache localhosts</h5> 
                                         <h5 class="vertical-bar">|</h5>
                                         <h5>cPanel</h5> 
                                         <h5 class="vertical-bar">|</h5>
                                         <h5>FileZilla</h5> 
                                         <h5 class="vertical-bar">|</h5>
+                                        <h5>... Paint</h5> 
+                                    </div>       
+                                </div>
+                            </div>
+
+                            <div class="colored-divider"></div>
+                            <div class="heading">
+                                <h3> 
+                                    <img src="images/git.jpg" class="skill-pics" alt="Git"> 
+                                    Versionning <span class="vertical-bar-h3"> | </span> VM 
+                                    <img src="images/docker.png" class="skill-right-pics" alt="Docker"> 
+                                </h3>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 list">        
+                                        <h5>Git</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>GitHub</h5>
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>GitLab</h5>   
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Oracle VM</h5> 
+                                        <h5 class="vertical-bar">|</h5>
+                                        <h5>Docker</h5> 
+                                    </div>       
+                                </div>
+                            </div>
+
+                            <div class="colored-divider"></div>
+                            <div class="heading">
+                                <h3> 
+                                    <img src="images/python.png" class="skill-pics" alt="Python"> 
+                                    Programming languages
+                                    <img src="images/terminal.png" class="skill-right-pics" alt="Terminal"> 
+                                </h3>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 list">        
                                         <h5>C</h5> 
                                         <h5 class="vertical-bar">|</h5>
                                         <h5>Python</h5> 
                                         <h5 class="vertical-bar">|</h5>
                                         <h5>Shell Script</h5> 
-                                        <h5 class="vertical-bar">|</h5>
-                                        <h5>Git</h5>
-                                        <h5 class="vertical-bar">|</h5>
-                                        <h5>Docker</h5>
                                     </div>
-                                
                                 </div>
                             </div>
 
@@ -341,12 +372,14 @@
 
                         <div class="carousel-item" id="experience">
 
-                            <h3>Professional Experience</h3>
+                            <div class="subtitle">
+                                <span class="fas fa-briefcase fa-2x white"></span> <h3>Professional Experience</h3>
+                            </div>
 
                             <ul class="timeline">
 
                                 <li>
-                                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                                    <div class="timeline-badge"><span class="fas fa-laptop"></span></div>
                                     <div class="timeline-panel-container-inverted">
                                         <div class="timeline-panel">
                                             <div class="timeline-heading">
@@ -365,7 +398,7 @@
                                 </li> 
 
                                 <li>
-                                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                                    <div class="timeline-badge"><span class="fas fa-wave-square"></span></div>
                                     <div class="timeline-panel-container">
                                         <div class="timeline-panel">
                                             <div class="timeline-heading">
@@ -384,7 +417,7 @@
                                 </li>  
 
                                 <li>
-                                    <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+                                    <div class="timeline-badge"><span class="fas fa-x-ray"></span></div>
                                     <div class="timeline-panel-container-inverted">
                                         <div class="timeline-panel">
                                             <div class="timeline-heading">
@@ -408,7 +441,9 @@
 
                         <div class="carousel-item" id="education">
 
-                            <h3>Education</h3>
+                            <div class="subtitle">
+                                <span class="fas fa-seedling fa-2x white"></span> <h3>Education</h3>
+                            </div>
 
                             <div class="row">
                                 <div class="col-md-4">
@@ -429,7 +464,7 @@
                                 <div class="col-md-4">
                                      <div class="education-block">
                                         <h5>2020 - 2021</h5>
-                                        <span class="fas fa-graduation-cap fa-3x"></span> <br>
+                                        <span class="fas fa-certificate fa-3x"></span> <br>
                                         <img src="images/udemy.png" class="school-logo" id="udemy-logo"> <br>
                                         <div class="location">
                                             <span class="fas fa-map-marker-alt fa-lg"></span> 
@@ -446,7 +481,7 @@
                                 <div class="col-md-4">
                                      <div class="education-block">
                                         <h5>2022</h5>
-                                        <span class="fas fa-graduation-cap fa-3x"></span> <br>
+                                        <span class="fas fa-certificate fa-3x"></span> <br>
                                         <img src="images/w3schools.png" class="school-logo" id="w3schools-logo"> <br>
                                         <div class="location">
                                             <span class="fas fa-map-marker-alt fa-lg"></span> 
@@ -466,7 +501,17 @@
           
                     </div> 
 
-                </div>         
+                </div>  
+
+                <div class="col-12">
+                    <a class="carousel-control-prev" href="#secondCarousel" data-slide="prev" role="button">
+                        <span class="fas fa-arrow-left fa-3x"></span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#secondCarousel" data-slide="next" role="button">
+                        <span class="fas fa-arrow-right fa-3x"></span>
+                    </a>    
+                </div>   
                 
             </div>              
 
@@ -634,7 +679,7 @@
                                     <p class="comments"></p>
                                 </div>
                                 <div class="col-md-12">
-                                    <p class="star"><strong>* Required informations.</strong></p>
+                                    <p class="star">* Required informations.</p>
                                 </div>
                                 <div class="col-md-12">
                                     <input type="submit" class="button1" value="Send">

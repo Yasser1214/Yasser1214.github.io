@@ -38,6 +38,17 @@ section .heading h2{
     background: #fff;
     margin: 0 auto 20px;
 }
+.subtitle h3{
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+}
+.colored{
+    color: #6A5ACD;
+}
+.white {
+    color: #fff;
+}
 
 
 
@@ -84,18 +95,22 @@ section .heading h2{
     margin: 0 auto;
     float: none;
 }
-.profile-picture img{
+#my-pic{
     width: 160px;
     height: 200px;
+}
+#hand{
+    width: 80px;
+    height: 80px;
 }
 #about .heading h1{
     color: #fff;
     /*text-transform: uppercase;*/
     margin-top: 20px;
 }
-.hand {
-    width: 100px;
-    height: 100px;
+.awesome-style{
+    color: #239FE6; 
+    text-shadow: 2px 2px 5px #000;
 }
 #about .links a{
     margin: 20px;
@@ -142,12 +157,6 @@ section .heading h2{
     color: #000;
     text-decoration: none;
 }
-
-#about-me .fas.fa-chevron-left, #about-me .fas.fa-chevron-right{
-    background-image: none;
-    color: #6A5ACD;
-}
-
 #about-me .carousel-indicators{
     bottom: 0px;
 }
@@ -198,6 +207,10 @@ section .heading h2{
     color: #6A5ACD;
     font-style: italic;
 }
+#about-me .fas.fa-arrow-left, #about-me .fas.fa-arrow-right{
+    background-image: none;
+    color: #6A5ACD;
+}
 
 
 
@@ -209,10 +222,6 @@ section .heading h2{
     background: #6A5ACD;
 }
 #curriculum .heading{
-    color: #fff;
-}
-#curriculum .fas.fa-chevron-left, #curriculum .fas.fa-chevron-right{
-    background-image: none;
     color: #fff;
 }
 #curriculum .carousel-indicators{
@@ -238,6 +247,11 @@ section .heading h2{
 #secondCarousel .carousel-inner{
     padding-bottom: 30px;
 }
+#curriculum .fas.fa-arrow-left, #curriculum .fas.fa-arrow-right{
+    background-image: none;
+    color: #fff;
+}
+
 
 
 /* SKILLS */
@@ -264,6 +278,11 @@ section .heading h2{
 #skills .skill-pics{
     width: 50px;
     height: 50px;
+}
+#skills .skill-right-pics{
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
 }
 #skills .vertical-bar{
     color: #6A5ACD;
@@ -551,9 +570,9 @@ section .heading h2{
     padding: 50px;
     border-radius: 10px;
 }
-/*---  NEW  ------*/
 .star{
-    color: #fff;
+    color: #B22222;
+    font-weight: bold;
 }
 .form-control{
     height: 50px;
