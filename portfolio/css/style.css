@@ -49,6 +49,18 @@ section .heading h2{
 .white {
     color: #fff;
 }
+.vertical-colored-bar{
+    color: #6A5ACD;
+    font-weight: bold;
+}
+.vertical-white-bar{
+    color: #fff;
+    font-weight: bold;
+}
+.vertical-black-bar{
+    color: #000;
+    font-weight: bold;
+}
 
 
 
@@ -284,10 +296,6 @@ section .heading h2{
     height: 50px;
     padding-left: 5px;
 }
-#skills .vertical-bar{
-    color: #6A5ACD;
-    font-weight: bold;
-}
 #skills .list{
     text-align: center;
 }
@@ -295,10 +303,6 @@ section .heading h2{
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 50px;
-}
-#skills .vertical-bar-h3{
-    color: #000;
-    font-weight: bold;
 }
 
 
