@@ -1,7 +1,7 @@
 <?php
 
     $array = array("firstname" => "", "name" => "", "email" => "", "phone" => "", "message" => "", "firstnameError" => "", "nameError" => "", "emailError" => "", "phoneError" => "", "messageError" => "", "isSuccess" => false);
-    $emailTo = "xxxxxx_xxxx@hotmail.fr";
+    $emailTo = "xxxxxx_xxxx@hotmail.ma";
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") 
     { 
