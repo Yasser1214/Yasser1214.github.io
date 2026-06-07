@@ -209,12 +209,6 @@ section .heading h2{
     height: 100px;
     padding-bottom: 15px;
 }
-.hobbies .mobile-games{
-    width: 180px;
-    height: 80px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
 .hobbies p{
     color: #6A5ACD;
     font-style: italic;
